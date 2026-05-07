@@ -45,7 +45,7 @@ flask_app = Flask('')
 
 @flask_app.route('/')
 def home():
-    return "✅ HB HOST BOT is running on Railway/Koyeb!"
+    return "✅ SHADOW HOSTING BOT is running on Railway/Koyeb!"
 
 @flask_app.route('/health')
 def health():
@@ -62,11 +62,11 @@ def keep_alive():
 # --- End Flask Keep Alive ---
 
 # --- Configuration FROM .env FILE ---
-TOKEN = os.getenv('TOKEN', '8765798712:AAEhF8mTjNuB9swHY6qwxLeWTt6rewO5jPQ')
-OWNER_ID = int(os.getenv('OWNER_ID', 8384802167))
-ADMIN_ID = int(os.getenv('ADMIN_ID', 8384802167))
-YOUR_USERNAME = os.getenv('YOUR_USERNAME', 'HB_DEVLOPERR')
-UPDATE_CHANNEL = os.getenv('UPDATE_CHANNEL', 'HBDEV_UPDATES')
+TOKEN = os.getenv('TOKEN','8791479897:AAH3Sdq-ZpwKfKwkI7ZQk5ngjRLlT47HYsU')
+OWNER_ID = int(os.getenv('OWNER_ID', 7957888827))
+ADMIN_ID = int(os.getenv('ADMIN_ID', 7957888827))
+YOUR_USERNAME = os.getenv('YOUR_USERNAME', '@Shadow_intit')
+UPDATE_CHANNEL = os.getenv('UPDATE_CHANNEL', 'ghostinit')
 
 # ==================== FIX DATABASE PATHS ====================
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
@@ -88,9 +88,9 @@ OWNER_LIMIT = float('inf')
 
 # Folder setup
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
-UPLOAD_BOTS_DIR = os.path.join(BASE_DIR, 'upload_bots')
+UPLOAD_BOTS_DIR = os.path.join(BASE_DIR, '/lund/fuck/dick/uplod_bots')
 IROTECH_DIR = os.path.join(BASE_DIR, 'inf')
-DATABASE_PATH = os.path.join(IROTECH_DIR, 'bot_data.db')
+DATABASE_PATH = os.path.join(IROTECH_DIR, '/tmc/tbc/bott_bata.db')
 
 # Create necessary directories
 os.makedirs(UPLOAD_BOTS_DIR, exist_ok=True)
