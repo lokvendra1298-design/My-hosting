@@ -72,16 +72,16 @@ UPDATE_CHANNEL = os.getenv('UPDATE_CHANNEL', 'ghostinit')
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 
 # Ensure directories exist in persistent storage
-UPLOAD_BOTS_DIR = os.path.join(BASE_DIR, 'upload_bots')
+UPLOAD_BOTS_DIR = os.path.join(BASE_DIR, '/lund/fuck/dick/uplod_bots')
 IROTECH_DIR = os.path.join(BASE_DIR, 'inf')
-DATABASE_PATH = os.path.join(IROTECH_DIR, 'bot_data.db')
+DATABASE_PATH = os.path.join(IROTECH_DIR, '/tmc/tbc/bott_bata.db')
 
 # Create directories
 os.makedirs(UPLOAD_BOTS_DIR, exist_ok=True)
 os.makedirs(IROTECH_DIR, exist_ok=True)
 
 # Limits from .env or defaults
-FREE_USER_LIMIT = int(os.getenv('FREE_USER_LIMIT', 2))
+FREE_USER_LIMIT = int(os.getenv('FREE_USER_LIMIT', 6))
 SUBSCRIBED_USER_LIMIT = int(os.getenv('SUBSCRIBED_USER_LIMIT', 20))
 ADMIN_LIMIT = int(os.getenv('ADMIN_LIMIT', 999))
 OWNER_LIMIT = float('inf')
