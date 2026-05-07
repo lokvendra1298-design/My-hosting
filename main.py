@@ -72,9 +72,9 @@ UPDATE_CHANNEL = os.getenv('UPDATE_CHANNEL', 'ghostinit')
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 
 # Ensure directories exist in persistent storage
-UPLOAD_BOTS_DIR = os.path.join(BASE_DIR, '/lund/fuck/dick/uplod_bots')
+UPLOAD_BOTS_DIR = os.path.join(BASE_DIR, 'uplod_bots')
 IROTECH_DIR = os.path.join(BASE_DIR, 'inf')
-DATABASE_PATH = os.path.join(IROTECH_DIR, '/tmc/tbc/bott_bata.db')
+DATABASE_PATH = os.path.join(IROTECH_DIR, 'bott_bata.db')
 
 # Create directories
 os.makedirs(UPLOAD_BOTS_DIR, exist_ok=True)
@@ -88,9 +88,9 @@ OWNER_LIMIT = float('inf')
 
 # Folder setup
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
-UPLOAD_BOTS_DIR = os.path.join(BASE_DIR, '/lund/fuck/dick/uplod_bots')
+UPLOAD_BOTS_DIR = os.path.join(BASE_DIR, 'uplod_bots')
 IROTECH_DIR = os.path.join(BASE_DIR, 'inf')
-DATABASE_PATH = os.path.join(IROTECH_DIR, '/tmc/tbc/bott_bata.db')
+DATABASE_PATH = os.path.join(IROTECH_DIR, 'bott_bata.db')
 
 # Create necessary directories
 os.makedirs(UPLOAD_BOTS_DIR, exist_ok=True)
